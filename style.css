@@ -14,10 +14,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffffff;
     height: 60px;
     position: sticky;
-    top: 0;
-    z-index: 100%;
+    z-index: 100;
+    top: 0%;
 }
 
 .nav_links {
@@ -58,13 +59,20 @@ body{
 }
 
 
-.image_container {          
-    background-image: url(photo-png.avif);
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 420px;
+.image_container {
+  height: 50vh;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(16, 1, 1, 0.815),
+      rgba(24, 2, 2, 0.394)
+    ),
+    url("photo-png.avif");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
@@ -181,7 +189,7 @@ body{
 }
 
 .cards {
-    background-color: #ffffff;
+    background-color: #f81717;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
