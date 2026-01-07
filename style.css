@@ -281,6 +281,93 @@ body{
     color: rgb(30 41 59);
 }
 
+.comment_section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.comment_section h2 {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    color: rgb(15 23 42);
+}
+
+.comment_container{
+    margin-left: 2rem;
+}
+
+
+.comment_card {
+    margin-left: 1rem;
+    width: 400px;
+    height: 290px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    align-content: center;
+
+}
+
+.comment_pin {
+    margin-left: 1rem;
+    color: #057652;
+}
+
+
+.comment_card p {
+    margin-left: 1rem;
+    line-height: 1.625;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    opacity: 1;
+    color: rgb(71 85 105);
+}
+
+.comment_profile {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.profile_img {
+   position: relative;
+   overflow: hidden;
+   border-radius: 9999px;
+}
+
+.profile_details {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.profile_details h4 {
+    opacity: 1;
+    color: rgb(30 41 59);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.profile_details p{
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-size: 0.85rem;
+    line-height: 1rem;
+    color: rgb(148 163 184);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-left: 0.5rem;
+}
+
+
 
 
 
