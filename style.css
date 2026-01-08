@@ -239,7 +239,7 @@ body{
 }
 
 .about_us_sect {
-    background-color: rgba(166, 191, 173, 0.8);;
+    background-color: #c9f5e0;
 }
 
 .about_us_wrapper {
@@ -268,14 +268,46 @@ body{
     margin-bottom: 2rem;    
 }
 
+.details {
+    background-color:rgb(255 255 255);
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0px 7px rgba(0, 0, 0, 0.12);
+    
+}
+
+.followers_span {
+    color: rgb(5 150 105);
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.happy_span {
+    color: rgb(100 116 139);
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
 .benefits_div {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    row-gap: 1.5rem;
     column-gap: 1rem;
+    row-gap: 1.5rem;
+}
+
+svg {
+    color: #057652;
 }
 
 .bft_texts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: 1.5rem;
     font-weight: 700;
     color: rgb(30 41 59);
@@ -293,7 +325,7 @@ body{
 .comment_section h2 {
     text-align: center;
     margin-top: 70px;
-    font-size: 1.875rem;
+    font-size: 2rem;
     line-height: 2.25rem;
     font-weight: 700;
     margin-bottom: 4rem;
@@ -301,6 +333,9 @@ body{
 }
 
 .comment_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     margin-left: 2rem;
 }
 
@@ -313,6 +348,10 @@ body{
     border-radius: 15px;
     align-content: center;
 
+}
+
+.comment_card:hover {
+    box-shadow: 0 0px 7px rgba(0, 0, 0, 0.12);
 }
 
 .comment_pin {
@@ -338,9 +377,12 @@ body{
 }
 
 .profile_img {
-   position: relative;
+    width: 48px;
+    height: 48px;
    overflow: hidden;
-   border-radius: 9999px;
+   border-radius: 50%;
+   display: block;
+   object-fit: cover;
 }
 
 .profile_details {
