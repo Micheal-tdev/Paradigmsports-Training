@@ -409,6 +409,115 @@ svg {
     margin-left: 0.5rem;
 }
 
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer_section {
+    background-color: rgb(15 23 42);
+}
+
+.footer_card {
+    padding: 2rem;
+}
+
+.paradigmnest_info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.logo {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    vertical-align: middle;
+}
+
+.logo_name {
+    letter-spacing: -0.025em;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: rgb(255 255 255);
+
+}
+
+.logo_text {
+    color: rgb(148 163 184);
+    line-height: 1.625;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.shop {
+    rgb(255 255 255);
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+}
+
+.shop_items_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem
+}
+
+.shop_items_wrapper a {
+    text-decoration: none;
+    color: rgb(181, 180, 180);
+     font-size: 0.975rem;
+    line-height: 1.25rem;
+
+}
+
+.links:hover {
+    color: #059669;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.email_input {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.55rem;
+    color: rgb(255 255 255);
+    border-radius: 0.5rem;
+    background-color: rgb(30 41 59 );
+    border-color: rgb(51 65 85);
+    border-width: 1px;
+}
+
+.sub_btn {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: rgb(5 150 105);
+    color: rgb(255 255 255);
+    cursor: pointer;
+
+
+}
 
 
 
