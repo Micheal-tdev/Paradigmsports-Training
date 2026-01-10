@@ -435,7 +435,6 @@ svg {
     width: 2rem;
     height: 2rem;
     display: block;
-    vertical-align: middle;
 }
 
 .logo_name {
@@ -458,9 +457,32 @@ svg {
     display: flex;
     gap: 1rem;
 }
+.social_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(30 41 59 );
+}
 
+.social_icons {
+    color: #000;
+  transition: color 0.3s ease;
+}
+
+.social_icons {
+    color: #1da1f2;
+}
+
+.icon {
+    background-color: #e1306c;
+}
+.icon:hover{
+    background-color: #059669;
+}
 .shop {
-    rgb(255 255 255);
     letter-spacing: 0.05em;
     font-weight: 700;
     font-size: 0.875rem;
@@ -484,8 +506,13 @@ svg {
 
 }
 
+.links {
+    display: inline;
+}
+
 .links:hover {
-    color: #059669;
+    color: 
+    #059669;
 }
 
 .email {
@@ -493,6 +520,15 @@ svg {
     flex-direction: column;
     gap: 0.7rem;
 }
+
+.sub_text {
+    color: rgb(148 163 184);
+    font-size: 0.84rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 
 .email_input {
     font-size: 0.875rem;
@@ -503,6 +539,7 @@ svg {
     background-color: rgb(30 41 59 );
     border-color: rgb(51 65 85);
     border-width: 1px;
+    border: none;
 }
 
 .sub_btn {
@@ -515,8 +552,55 @@ svg {
     background-color: rgb(5 150 105);
     color: rgb(255 255 255);
     cursor: pointer;
+    border: none;
 
 
+}
+
+.sub_btn:hover {
+    color:  rgb(255 255 255);
+    background-color: #057652;
+}
+
+.rights_div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rights_div p {
+    font-size: 0.95rem;
+    line-height: 1rem;
+    color: rgb(100 116 139);
+    margin-left: 2rem;
+    
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.priv_trms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3rem;
+    gap: 1.5rem;
+}
+
+.priv_trms a {
+    font-size: 0.95rem;
+    line-height: 1rem;
+    color: rgb(100 116 139);
+    text-decoration: none;
+    margin-top: 0rem;
+}
+
+.priv_trms a:hover{
+    color: #f7f9fb;
 }
 
 
