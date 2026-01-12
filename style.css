@@ -21,6 +21,14 @@ body{
     top: 0%;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
 .nav_links {
     display: flex;
     justify-content: space-evenly;
@@ -30,6 +38,26 @@ body{
     gap: 20px;
     transition: color 0.3s ease;
 }
+
+.cart {
+  position: relative;
+  display: inline-block;
+}
+
+#cartCount {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #059669;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  min-width: 18px;
+  text-align: center;
+  line-height: 1;
+}
+
 
 .logo {
     display: flex;
@@ -94,7 +122,7 @@ body{
     font-size: 0.75rem;
     color: #059669;
     border-radius: 999px;
-    background-color: hsla(161, 70%, 73%, 0.615);
+    background-color: rgb(16 185 129 / 20%);
     letter-spacing: 0.02em;
     margin-top: 50px;
     margin-bottom: 2rem;
@@ -612,6 +640,28 @@ svg {
 .priv_trms a:hover{
     color: #f7f9fb;
 }
+
+#toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #059669;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 9999;
+}
+
+#toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 
 
