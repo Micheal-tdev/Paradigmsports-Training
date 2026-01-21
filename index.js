@@ -17,3 +17,17 @@ addButtons.forEach(button => {
   })
 })
 
+
+
+const readMore = document.getElementById("readMore");
+const fullCard = document.getElementById("fullCard");
+const closeCard = document.getElementById("closeCard");
+
+readMore.addEventListener("click", () => {
+  fullCard.classList.add("show");
+});
+
+closeCard.addEventListener("click", () => {
+  fullCard.classList.remove("show");
+});
+
