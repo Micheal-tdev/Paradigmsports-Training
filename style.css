@@ -33,7 +33,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-family: ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-right: 50px;
     gap: 20px;
     transition: color 0.3s ease;
@@ -61,13 +61,12 @@ body{
 
 .logo {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 8px;
     font-weight: 800;
     font-family: sans-serif;
     margin-left: 50px;
     font-size: 1.0rem;
+    cursor: pointer;
 }
 
 .sports {
